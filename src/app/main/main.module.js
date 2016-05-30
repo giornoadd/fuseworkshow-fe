@@ -7,8 +7,7 @@
         .config(config);
 
     /** @ngInject */
-    function config(msApiProvider)
+    function config()
     {
-      msApiProvider.setBaseUrl('app/data/');
     }
 })();
